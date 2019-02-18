@@ -1,0 +1,6 @@
+
+set key box vertical width 2 height 1 maxcols 1 spacing 1
+set key left
+set title "Convex     November 1-7 1989   Circadian"
+plot "using.dat" u 2:4 with impulses title "Logged in", "using.dat" u 2:4 with points title "Logged in"
+
